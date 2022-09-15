@@ -1,6 +1,6 @@
 FROM node
 
-ARG VERSION='0.1.2'
+ARG VERSION
 
 RUN apt-get update && \
     apt-get install wget -y && \
