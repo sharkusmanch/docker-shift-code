@@ -18,6 +18,6 @@ docker buildx build --build-arg VERSION=${VERSION} --platform linux/amd64,linux/
 ## Running
 
 ```
-docker run -it --rm -v ./data:'/root/.local/share/@shift-code' contentar/shift-code login
-docker run -it --rm -v ./data:'/root/.local/share/@shift-code' contentar/shift-code redeem
+docker run -it --rm -v ./data:'/root/.local/share/@shift-code' ghcr.io/sharkusmanch/shift-code login
+docker run -it --rm -v ./data:'/root/.local/share/@shift-code' ghcr.io/sharkusmanch/shift-code redeem
 ```
